@@ -12,11 +12,6 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
         <div className={styles.grid}>
           <div className={styles.About}>
             <h1>About</h1>
@@ -26,6 +21,7 @@ export default function Home() {
           </div>
         </div>
       </main>
+
     </div>
   )
 }
