@@ -18,35 +18,12 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a className={styles.About}>
+          <div className={styles.About}>
             <h1>About</h1>
             <p>愛知県みよし市出身の2002年生まれ。
       2021年に愛知県立豊田南高等学校を卒業。 その後、静岡大学情報学部情報科学科に入学。 現在は大学でプログラミングを勉強中。
 アニメを見ることや本を読むことが好き。</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          </div>
         </div>
       </main>
 
