@@ -19,8 +19,10 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+            <h2>About</h2>
+            <p>愛知県みよし市出身の2002年生まれ。
+2021年に愛知県立豊田南高等学校を卒業。 その後、静岡大学情報学部情報科学科に入学。 現在は大学でプログラミングを勉強中。
+アニメを見ることや本を読むことが好き。</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
