@@ -15,7 +15,7 @@ export default function Home() {
         <div className={styles.grid}>
           <div className={styles.About}>
             <h1>About</h1>
-            <p>愛知県みよし市出身の2002年生まれ。<br></br>
+            <p><br>愛知県みよし市出身の2002年生まれ。</br>
       2021年に愛知県立豊田南高等学校を卒業。 その後、静岡大学情報学部情報科学科に入学。 現在は大学でプログラミングを勉強中。
 アニメを見ることや本を読むことが好き。</p>
           </div>
