@@ -18,8 +18,8 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a>
-            <h2>About</h2>
+          <a className={styles.About}>
+            <h1>About</h1>
             <p>愛知県みよし市出身の2002年生まれ。
       2021年に愛知県立豊田南高等学校を卒業。 その後、静岡大学情報学部情報科学科に入学。 現在は大学でプログラミングを勉強中。
 アニメを見ることや本を読むことが好き。</p>
