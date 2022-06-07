@@ -14,7 +14,7 @@ export default function Home() {
         </style>
       </Head>
       <header>
-        <strong>About</strong>
+        <strong>Abouta</strong>
       </header>
       <div className={styles.head}>
         portfolio
