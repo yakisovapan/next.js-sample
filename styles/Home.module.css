@@ -52,7 +52,7 @@
 
 .title {
   font-family: 'Press Start 2P', cursive;
-  padding-left: 4rem;
+  padding-left: 36rem;
 }
 
 .title,
@@ -63,7 +63,7 @@
 .grid {
   display: flex;
   min-height: 100vh;
-  padding-left: 40rem;
+  padding: 4rem;
   flex-direction:column;
   align-items: flex-start;
   justify-content: flex-start;
@@ -71,7 +71,41 @@
 
 }
 
+.about_text{
+  padding-left: 36rem;
+}
 .about{
   min-width:100%;
   background-image: url(background2.png);
+}
+.works{
+  min-width:100%;
+  background-image: url(background3.png);
+}
+.workslist{
+  width: 25rem;
+  height: 15rem;
+  display: flex;
+  flex-direction:row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: blueviolet;
+}
+
+.workslist p{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.foot{
+  position:absolute;
+  font-family: 'Press Start 2P', cursive;
+  font-weight: bold;
+  text-decoration: underline;
+  left: 50px;
+  top:290vh;
 }
