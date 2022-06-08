@@ -13,9 +13,7 @@ export default function Home() {
         @import url(https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap);
         </style>
       </Head>
-      <header>
-        <strong>About</strong>
-      </header>
+      
       <div className={styles.head}>
         portfolio
       </div>
