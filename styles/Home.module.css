@@ -4,9 +4,9 @@
 
 
 
-.head{
+.top{
+  overflow: hidden;
   min-height: 100vh;
-  padding: 0;
   font-family: 'Press Start 2P', cursive;
   font-weight: bold;
   font-size: 7vh;
@@ -17,42 +17,36 @@
   justify-content: center;
   align-items: center;
 }
+.menu{
+  position:  absolute;
+  font-family: 'Press Start 2P', cursive;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 2.5vh;
+  flex: 1;
+  display: flex;
+  right: 50px;
+  top: 50px;
+  flex-direction: column;
+  
+}
+
+.menu a{
+  height: 50px;
+}
+
 .main {
-  min-height: 1000vh;
+  min-height: 200vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  flex-wrap: wrap;
+
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
 
 .title {
   font-family: 'Press Start 2P', cursive;
@@ -64,21 +58,6 @@
   text-align: center;
 }
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
 .grid {
   display: flex;
   padding-left: 8rem;
@@ -87,25 +66,6 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
-}
-
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
 }
 
 
