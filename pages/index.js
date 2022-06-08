@@ -16,22 +16,24 @@ export default function Home() {
       <div  id="top"className={styles.menu}>
         <a href="#top">TOP</a>
         <a href="#about">ABOUT</a>
-          <div>WORKS</div>
-        </div>
+        <a href="#works">WORKS</a>
+      </div>
       <div className={styles.top}>
          portfolio
       </div>
       <main className={styles.main}>
-        <div className={styles.grid}>
+        <div className={styles.about}>
+          <div className={styles.grid}>
             <h1 id="about"className={styles.title}>ABOUT</h1>
-            <strong>岩村匠真</strong>
+            <strong className={styles.name}>岩村匠真</strong>
             <p>愛知県みよし市出身の2002年生まれ。</p>
             <p>2021年に愛知県立豊田南高等学校を卒業。 その後、静岡大学情報学部情報科学科に入学。</p>
             <p>  現在は大学でプログラミングを勉強中。
             アニメを見ることや本を読むことが好き。</p>
+            </div>
         </div>
         <div>
-        <h1 className={styles.title}>WORKS</h1>
+        <h1 id="works"className={styles.title}>WORKS</h1>
         </div>
       </main>
       <a href="#top">TOP</a>
